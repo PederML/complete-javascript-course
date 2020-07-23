@@ -376,8 +376,8 @@ c) correct answer (I would use a number for this)
 
     questions[n].checkAnswer(answer);
 })();
-*/
 
+*/
 
 
 /*
@@ -393,25 +393,24 @@ c) correct answer (I would use a number for this)
 */
 
 
-/*
+// Create a private class
 (function() {
+    // create the component of a question
     function Question(question, answers, correct) {
         this.question = question;
         this.answers = answers;
         this.correct = correct;
     }
-
+    // create way to display the question
     Question.prototype.displayQuestion = function() {
         console.log(this.question);
-
         for (var i = 0; i < this.answers.length; i++) {
             console.log(i + ': ' + this.answers[i]);
         }
     }
-
+    // create function to check the answer  and keep the score
     Question.prototype.checkAnswer = function(ans, callback) {
         var sc;
-        
         if (ans === this.correct) {
             console.log('Correct answer!');
             sc = callback(true);
@@ -419,9 +418,9 @@ c) correct answer (I would use a number for this)
             console.log('Wrong answer. Try again :)');
             sc = callback(false);
         }
-        
         this.displayScore(sc);
     }
+
 
     Question.prototype.displayScore = function(score) {
         console.log('Your current score is: ' + score);
@@ -452,19 +451,15 @@ c) correct answer (I would use a number for this)
             return sc;
         }
     }
-    var keepScore = score();
-    
-    
-    function nextQuestion() {
 
+    var keepScore = score();
+
+    function nextQuestion() {
         var n = Math.floor(Math.random() * questions.length);
         questions[n].displayQuestion();
-
         var answer = prompt('Please select the correct answer.');
-
         if(answer !== 'exit') {
             questions[n].checkAnswer(parseInt(answer), keepScore);
-            
             nextQuestion();
         }
     }
@@ -472,4 +467,3 @@ c) correct answer (I would use a number for this)
     nextQuestion();
     
 })();
-*/
