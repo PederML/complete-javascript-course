@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1533a284-48a5-4e9b-a577-32146e0ced75" name="Default Changelist" comment="" />
+    <list default="true" id="1533a284-48a5-4e9b-a577-32146e0ced75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +23,7 @@
   <component name="ProjectId" id="1ewbh5m0LuNtlZdqbbIjpJMmf4o" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/4-DOM-pig-game/starter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-course-2-indecision-app" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -51,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595235718034</updated>
       <workItem from="1595235727523" duration="38454000" />
+      <workItem from="1595514500903" duration="823000" />
     </task>
     <servers />
   </component>
@@ -62,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
