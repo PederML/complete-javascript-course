@@ -23,7 +23,7 @@
   <component name="ProjectId" id="1ewbh5m0LuNtlZdqbbIjpJMmf4o" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-course-2-indecision-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,6 +54,7 @@
       <updated>1595235718034</updated>
       <workItem from="1595235727523" duration="38454000" />
       <workItem from="1595514500903" duration="823000" />
+      <workItem from="1595960691582" duration="1120000" />
     </task>
     <servers />
   </component>
